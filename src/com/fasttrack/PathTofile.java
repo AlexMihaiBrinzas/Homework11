@@ -17,13 +17,12 @@ public class PathTofile {
         System.out.println(studentGrade.getGrade());
 
         BufferedWriter writer=new BufferedWriter(new FileWriter("Files/StudenGrade.txt"));
-        writer.write("Line 1");
+        writer.write("Alex");
         writer.newLine();
-        writer.write("Line 2");
+        writer.write("Mihai");
         writer.newLine();
-        writer.write("Line 3");
+        writer.write("George");
         writer.newLine();
-        writer.write("Line 4");
         writer.flush();
 
     }

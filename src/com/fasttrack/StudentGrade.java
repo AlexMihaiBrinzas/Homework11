@@ -32,5 +32,9 @@ public class StudentGrade  {
     public int getGrade() {
         return grade;
     }
+    @Override
+    public String toString(){
+        return "student "+name+"";
+    }
 
 }
