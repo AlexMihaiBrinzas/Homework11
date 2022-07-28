@@ -32,9 +32,13 @@ public class StudentGrade  {
     public int getGrade() {
         return grade;
     }
-    @Override
-    public String toString(){
-        return "student "+name+"";
-    }
 
+    @Override
+    public String toString() {
+        return "StudentGrade{" +
+                "name='" + name + '\'' +
+                ", discipline='" + discipline + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }
